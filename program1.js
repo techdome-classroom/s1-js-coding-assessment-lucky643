@@ -14,10 +14,8 @@ var isValid = function(s) {
          let char = s[i];
          
          if (map[char]) {
-             // If it's an opening bracket, push to the stack
              stack.push(char);
          } else {
-             // If it's a closing bracket, check if it matches the last opened one
              let last = stack.pop();
              if (map[last] !== char) {
                  return false;
