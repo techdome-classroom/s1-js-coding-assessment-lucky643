@@ -6,7 +6,6 @@
     
 // };
 
-// program1.js
 function isValid(s) {
      const stack = [];
      const map = {
