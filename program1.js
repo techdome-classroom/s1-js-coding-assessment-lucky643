@@ -26,10 +26,6 @@ var isValid = function(s) {
      }
      return stack.length === 0;
 };
-
-function isValid(s) {
-     
- }
  
  module.exports = { isValid };
  
