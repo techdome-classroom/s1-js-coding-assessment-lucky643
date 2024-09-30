@@ -34,6 +34,6 @@ function isValid(s) {
  
  module.exports = { isValid };
  
-module.exports = { isValid };
+
 
 
